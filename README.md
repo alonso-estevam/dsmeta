@@ -21,6 +21,10 @@ https://www.figma.com/file/EN1zFtk4eY3Jgmpgi9YaMG/DSMeta1
 * Spring Boot
 * Java 17
 * H2
+* [Twilio](twilio.com)
+
+## 🌱 Backend deploy in Heroku:
+https://dsmeta-alonso.herokuapp.com/sales
 
 ## 📌 Credits:
 [DevSuperior](https://devsuperior.com.br)
