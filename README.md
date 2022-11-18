@@ -33,6 +33,7 @@ https://www.figma.com/file/EN1zFtk4eY3Jgmpgi9YaMG/DSMeta1
 
 * send sms notification about a specific sale
 <img src="./public/envio-sms.gif">
+<img src="./public/print-sms-twilio.jpg">
 
 ## 🌱 Backend deploy in Heroku:
 https://dsmeta-alonso.herokuapp.com/sales
