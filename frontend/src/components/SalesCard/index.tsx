@@ -19,7 +19,6 @@ export const SalesCard = () => {
   useEffect(() => {
     const dmin = minDate.toISOString().slice(0, 10);
     const dmax = maxDate.toISOString().slice(0, 10);
-    console.log(dmin);
 
     axios
       .get(`${BASE_URL}/sales?minDate=${dmin}&maxDate=${dmax}`)
@@ -76,7 +75,7 @@ export const SalesCard = () => {
                   <td>{sale.amount.toFixed(2)}</td>
                   <td>
                     <div className="dsmeta-btn-container">
-                      <NotificationButton />
+                      <NotificationButton saleId={sale.id} />
                     </div>
                   </td>
                 </tr>
